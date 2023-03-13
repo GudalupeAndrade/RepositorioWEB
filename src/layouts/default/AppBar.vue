@@ -31,6 +31,12 @@
         title="Tabla"
         value="value"
       ></v-list-item>
+
+      <v-list-item @click="$router.push('crud')"
+        prepend-icon="mdi-table"
+        title="Tabla CRUD"
+        value="value"
+      ></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
